@@ -1,0 +1,37 @@
+<svg viewBox="80 30 240 260" width="100%" role="img" aria-label="{{globe_aria}}" style="display: block; overflow: visible">
+<defs>
+<radialGradient id="mgGlobeFill" cx="0.36" cy="0.3" r="0.8">
+<stop offset="0" stop-color="#202124"></stop>
+<stop offset="1" stop-color="#0A0A0B"></stop>
+</radialGradient>
+<clipPath id="mgGlobeClip"><circle cx="200" cy="175" r="105"></circle></clipPath>
+</defs>
+<circle cx="200" cy="175" r="105" fill="url(#mgGlobeFill)"></circle>
+<g clip-path="url(#mgGlobeClip)" fill="none" stroke-width="1">
+<ellipse cx="200" cy="175" rx="105" ry="18" stroke="#34363B"></ellipse>
+<ellipse cx="200" cy="122.5" rx="91" ry="15" stroke="#2A2B2F"></ellipse>
+<ellipse cx="200" cy="227.5" rx="91" ry="15" stroke="#2A2B2F"></ellipse>
+<ellipse cx="200" cy="84" rx="52.5" ry="9" stroke="#2A2B2F"></ellipse>
+<ellipse cx="200" cy="266" rx="52.5" ry="9" stroke="#2A2B2F"></ellipse>
+<ellipse class="mg-mer" cx="200" cy="175" rx="105" ry="105" stroke="#3A3C41"></ellipse>
+<ellipse class="mg-mer" cx="200" cy="175" rx="105" ry="105" stroke="#3A3C41" style="animation-delay: -2s"></ellipse>
+<ellipse class="mg-mer" cx="200" cy="175" rx="105" ry="105" stroke="#3A3C41" style="animation-delay: -4s"></ellipse>
+<ellipse class="mg-mer" cx="200" cy="175" rx="105" ry="105" stroke="#3A3C41" style="animation-delay: -6s"></ellipse>
+<ellipse class="mg-mer" cx="200" cy="175" rx="105" ry="105" stroke="#3A3C41" style="animation-delay: -8s"></ellipse>
+<ellipse class="mg-mer" cx="200" cy="175" rx="105" ry="105" stroke="#3A3C41" style="animation-delay: -10s"></ellipse>
+</g>
+<circle cx="200" cy="175" r="105" fill="none" stroke="#5A5D63" stroke-width="1"></circle>
+
+<path class="mg-flyroute" d="M128 150 Q205 -30 282 128" pathLength="1000" fill="none" stroke="#C9CCD1" stroke-opacity="0.2" stroke-width="7" stroke-linecap="round"></path>
+<path class="mg-flyroute" d="M128 150 Q205 -30 282 128" pathLength="1000" fill="none" stroke="#E8E9EB" stroke-width="1.6" stroke-linecap="round"></path>
+
+<circle class="mg-pulse" cx="128" cy="150" r="7" fill="none" stroke="#C9CCD1" stroke-width="1.2"></circle>
+<circle cx="128" cy="150" r="4.5" fill="#C9CCD1" stroke="#0A0A0B" stroke-width="1.5"></circle>
+<circle class="mg-pulse" cx="282" cy="128" r="7" fill="none" stroke="#F2F3F5" stroke-width="1.2" style="animation-delay: 1.2s"></circle>
+<circle cx="282" cy="128" r="5" fill="#0A0A0B" stroke="#F2F3F5" stroke-width="1.5"></circle>
+<circle cx="282" cy="128" r="2" fill="#F2F3F5"></circle>
+
+<g class="mg-fly">
+<path d="M11 0 L-5 -2.6 L-9 -11 L-12 -11 L-9.5 -2.4 L-13 -2 L-15 -6 L-17 -6 L-16 0 L-17 6 L-15 6 L-13 2 L-9.5 2.4 L-12 11 L-9 11 L-5 2.6 Z" fill="#F2F3F5"></path>
+</g>
+</svg>

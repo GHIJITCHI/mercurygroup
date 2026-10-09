@@ -1,0 +1,19 @@
+<svg viewBox="0 0 720 520" width="100%" role="img" aria-label="{{map_aria}}" style="display: block">
+<path d="M531.0 16.2L669.2 14.8M671.7 14.7L720.0 14.2M0.0 52.4L348.0 55.7M0.0 85.5L200.7 83.7M207.2 83.7L470.8 81.3M0.0 124.8L202.0 123.7M218.3 123.6L417.0 122.4M442.1 122.3L628.0 121.2M646.9 121.1L720.0 120.6M321.6 162.8L460.3 163.3M487.8 163.4L720.0 164.1M0.0 207.3L234.7 207.6M268.7 207.7L507.6 208.0M509.7 208.0L720.0 208.4M0.0 287.6L233.1 282.3M264.9 281.6L583.3 274.4M593.3 274.2L720.0 271.4M0.0 322.3L183.0 321.1M200.5 321.0L465.8 319.2M466.0 319.2L692.1 317.6M712.5 317.5L720.0 317.5M0.0 367.3L336.9 360.4M368.3 359.8L681.8 353.4M696.1 353.2L720.0 352.7M385.5 389.4L521.0 388.3M543.1 388.1L706.9 386.8M161.7 439.6L352.3 439.6M358.1 439.6L493.1 439.6M512.1 439.6L675.5 439.6M676.4 439.6L720.0 439.6M0.0 476.9L168.1 476.7M187.3 476.7L496.4 476.3M504.4 476.3L720.0 476.0M21.8 0.0L22.7 113.4M23.4 215.7L24.3 334.1M24.5 364.0L25.6 511.7M71.8 119.8L69.3 295.1M69.0 321.3L66.8 474.1M66.4 499.1L66.2 520.0M131.7 0.0L131.0 105.8M130.9 116.2L129.5 319.2M129.4 331.5L128.4 472.1M188.5 0.0L182.6 206.9M182.0 227.4L178.1 360.1M178.0 364.2L175.7 444.4M175.1 464.7L173.5 520.0M244.2 0.0L241.2 117.3M241.0 124.8L236.7 294.3M236.4 307.3L233.9 405.8M233.6 416.8L231.0 520.0M291.7 0.0L290.2 161.0M339.9 0.0L338.0 158.9M337.7 183.3L336.5 277.9M336.4 285.6L335.0 406.8M334.8 422.7L333.6 520.0M387.4 0.0L387.1 157.9M387.0 172.0L386.7 333.2M386.6 362.6L386.2 520.0M439.5 367.3L441.8 456.7M484.4 258.7L488.9 398.8M526.8 0.0L524.9 127.7M524.9 128.3L522.4 292.7M522.4 293.3L520.5 423.0M520.2 439.0L519.0 520.0M581.5 0.0L581.0 84.2M581.0 92.6L580.4 190.8M580.3 219.3L579.2 425.0M579.2 429.7L578.7 520.0M624.5 173.6L628.3 350.6M671.1 0.0L672.7 222.6M672.7 226.6L673.8 386.8M674.6 499.7L674.8 520.0M714.1 139.9L712.5 220.3M712.2 237.5L710.0 345.1M709.4 374.2L707.6 468.8M707.3 482.3L706.6 520.0M495.2 510.9L563.1 637.0M508.8 330.7L536.8 421.2M39.2 67.5L170.0 97.1M184.0 84.9L323.1 122.7M626.8 348.7L680.1 413.9M211.0 238.9L303.0 288.6M189.5 500.1L75.3 510.0" fill="none" stroke="#2A2B2F" stroke-width="1.3" stroke-linecap="round"></path>
+<path d="M0.0 340.0L720.0 315.0M0.0 200.0L720.0 170.0M170.0 0.0L200.0 520.0M470.0 0.0L440.0 520.0M0 480Q300 330 720 262" fill="none" stroke="#3E4045" stroke-width="3.2" stroke-linecap="round"></path>
+
+<path class="mg-route" d="M200.0 333.1L451.3 324.3L459.6 180.9L560.0 176.7" pathLength="1000" fill="none" stroke="#C9CCD1" stroke-opacity="0.18" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"></path>
+<path class="mg-route" d="M200.0 333.1L451.3 324.3L459.6 180.9L560.0 176.7" pathLength="1000" fill="none" stroke="#E8E9EB" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path>
+<path class="mg-head" d="M200.0 333.1L451.3 324.3L459.6 180.9L560.0 176.7" pathLength="1000" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+
+<circle class="mg-pulse" cx="200" cy="333.1" r="10" fill="none" stroke="#C9CCD1" stroke-width="1.5"></circle>
+<circle cx="200" cy="333.1" r="7" fill="#C9CCD1" stroke="#0A0A0B" stroke-width="2"></circle>
+<text x="200" y="370" text-anchor="middle" fill="#B4B7BC" font-size="16" letter-spacing="2">{{map_a}}</text>
+
+<circle class="mg-pulse" cx="560" cy="176.7" r="12" fill="none" stroke="#F2F3F5" stroke-width="1.5" style="animation-delay: 1.2s"></circle>
+<g class="mg-arrive">
+<circle cx="560" cy="176.7" r="10" fill="#0A0A0B" stroke="#F2F3F5" stroke-width="2"></circle>
+<circle cx="560" cy="176.7" r="4" fill="#F2F3F5"></circle>
+</g>
+<text x="560" y="146" text-anchor="middle" fill="#B4B7BC" font-size="16" letter-spacing="2">{{map_b}}</text>
+</svg>

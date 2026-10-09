@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="{{lang}}" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{meta_title}}</title>
+<meta name="description" content="{{meta_desc}}">
+<meta name="theme-color" content="#0A0A0B">
+<link rel="canonical" href="https://mercurygroup.md{{path}}">
+<link rel="alternate" hreflang="ru" href="https://mercurygroup.md/">
+<link rel="alternate" hreflang="ro" href="https://mercurygroup.md/ro/">
+<link rel="alternate" hreflang="en" href="https://mercurygroup.md/en/">
+<link rel="alternate" hreflang="x-default" href="https://mercurygroup.md/">
+<meta property="og:title" content="{{meta_title}}">
+<meta property="og:description" content="{{meta_desc}}">
+<meta property="og:type" content="website">
+<link rel="icon" href="{{base}}assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{base}}assets/css/style.css">
+<script>document.documentElement.classList.remove('no-js')</script>
+</head>
+<body>
+<a class="sr-only" href="#booking">{{skip}}</a>
+
+<header class="site-header">
+<div class="wrap header-row">
+<a class="brand" href="#top" aria-label="Mercury Group">
+<svg class="brand-mark" viewBox="0 0 64 64" fill="none" aria-hidden="true"><circle cx="32" cy="32" r="29" stroke="#C9CCD1" stroke-width="1" stroke-dasharray="150 32" transform="rotate(-60 32 32)"></circle><path d="M19 44 V22 L32 36 L45 22 V44" stroke="#E8E9EB" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+<span class="brand-word"><b>MERCURY</b><small>GROUP</small></span>
+</a>
+<div class="header-actions">
+<nav class="nav" id="nav" aria-label="{{nav_aria}}">
+<div class="nav-links">
+<a href="#services">{{nav_services}}</a>
+<a href="#fleet">{{nav_fleet}}</a>
+<a href="#how">{{nav_how}}</a>
+</div>
+<div class="lang" aria-label="{{lang_aria}}">
+<a href="{{href_ru}}" hreflang="ru" lang="ru" {{cur_ru}}>RU</a>
+<a href="{{href_ro}}" hreflang="ro" lang="ro" {{cur_ro}}>RO</a>
+<a href="{{href_en}}" hreflang="en" lang="en" {{cur_en}}>EN</a>
+</div>
+<a class="btn btn-primary btn-sm" href="#booking">{{nav_book}}</a>
+</nav>
+<div class="call" id="call">
+<button class="btn btn-ghost btn-sm call-btn" type="button" aria-expanded="false" aria-controls="call-pop" aria-label="{{call}}">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.9 2z"></path></svg>
+<span class="call-label">{{call}}</span>
+</button>
+<div class="call-pop" id="call-pop" role="dialog" aria-label="{{call_title}}">
+<p>{{call_title}}</p>
+<a class="call-num" href="tel:{{phone_tel}}">{{phone_display}}</a>
+<p class="call-note">{{call_note}}</p>
+<a class="btn btn-primary" href="tel:{{phone_tel}}">{{call}}</a>
+<a class="call-mail" href="mailto:{{email}}">{{email}}</a>
+</div>
+</div>
+<button class="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="{{menu}}"><span></span></button>
+</div>
+</div>
+</header>
+
+<main>
+<section class="hero" id="top">
+<div class="streaks" aria-hidden="true">
+<div class="streak" style="top:22%;animation-duration:7s"></div>
+<div class="streak" style="top:38%;animation-duration:11s;animation-delay:-4s;opacity:.6"></div>
+<div class="streak" style="top:57%;animation-duration:9s;animation-delay:-2s"></div>
+<div class="streak" style="top:71%;animation-duration:13s;animation-delay:-7s;opacity:.5"></div>
+<div class="streak" style="top:86%;animation-duration:8s;animation-delay:-5s;opacity:.7"></div>
+</div>
+<div class="wrap hero-grid">
+<div class="hero-text">
+<div class="eyebrow in-1"><i></i><b>MERCURY GROUP</b><span>executive transportation &amp; airport transfers</span></div>
+<h1 class="in-1 d1">{{hero_h1}}</h1>
+<p class="lead in-1 d2">{{hero_p}}</p>
+<div class="hero-cta in-1 d3">
+<a class="btn btn-primary" href="#booking">{{hero_btn1}}</a>
+<a class="btn btn-ghost" href="#fleet">{{hero_btn2}}</a>
+</div>
+</div>
+<div class="hero-map in-1 d2">
+{{>map}}
+</div>
+</div>
+</section>
+
+<section class="booking" id="booking">
+<div class="wrap booking-grid">
+<div class="booking-info reveal">
+<div class="label">{{book_label}}</div>
+<h2 class="flip-title" id="flip" data-words="{{book_words}}" aria-label="{{book_h}}">{{book_h}}</h2>
+<p class="lead">{{book_p}}</p>
+<div class="contacts">
+<a href="tel:{{phone_tel}}">{{phone_display}}</a>
+<a href="mailto:{{email}}">{{email}}</a>
+</div>
+<div class="globe">
+{{>globe}}
+</div>
+</div>
+
+<div class="form-col">
+<form class="bform reveal" id="bform" novalidate>
+<fieldset>
+<legend>{{f_car}}</legend>
+<div class="cars">
+<button type="button" class="pill" data-car="V-Class" aria-pressed="false"><b>V-Class</b><small>{{f_v}}</small></button>
+<button type="button" class="pill" data-car="BMW 7" aria-pressed="false"><b>BMW 7</b><small>{{f_sedan}}</small></button>
+<button type="button" class="pill" data-car="S-Class" aria-pressed="true"><b>S-Class</b><small>{{f_sedan}}</small></button>
+</div>
+<input type="hidden" name="car" value="S-Class">
+</fieldset>
+<div class="fgrid">
+<label class="field"><span class="flabel">{{f_from}}</span><input class="fld" name="from" required maxlength="200" placeholder="{{ph_from}}" autocomplete="street-address"></label>
+<label class="field"><span class="flabel">{{f_to}}</span><input class="fld" name="to" required maxlength="200" placeholder="{{ph_to}}"></label>
+<label class="field"><span class="flabel">{{f_date}}</span><input class="fld" type="date" name="date" required></label>
+<label class="field"><span class="flabel">{{f_time}}</span><input class="fld" type="time" name="time" required></label>
+<label class="field"><span class="flabel">{{f_pax}}</span><select class="fld" name="pax"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select></label>
+<label class="field"><span class="flabel">{{f_flight}}</span><input class="fld" name="flight" maxlength="20" placeholder="{{ph_flight}}"></label>
+<label class="field"><span class="flabel">{{f_name}}</span><input class="fld" name="name" required maxlength="100" autocomplete="name" placeholder="{{ph_name}}"></label>
+<label class="field"><span class="flabel">{{f_phone}}</span><input class="fld" type="tel" name="phone" required maxlength="30" autocomplete="tel" placeholder="+373 ..."></label>
+</div>
+<label class="check"><input type="checkbox" name="roundtrip" id="roundtrip">{{f_return}}</label>
+<div class="return" id="return">
+<label class="field"><span class="flabel">{{f_rdate}}</span><input class="fld" type="date" name="returnDate"></label>
+<label class="field"><span class="flabel">{{f_rtime}}</span><input class="fld" type="time" name="returnTime"></label>
+</div>
+<label class="field"><span class="flabel">{{f_comment}}</span><textarea class="fld" name="comment" rows="2" maxlength="1000" placeholder="{{ph_comment}}"></textarea></label>
+<div class="hp" aria-hidden="true"><label>Company<input name="company" tabindex="-1" autocomplete="off"></label></div>
+<input type="hidden" name="lang" value="{{lang}}">
+<button class="btn btn-primary" type="submit" data-sending="{{f_sending}}">{{f_submit}}</button>
+<p class="form-error" id="form-error" role="alert" hidden>{{err}} <a href="tel:{{phone_tel}}">{{phone_display}}</a></p>
+<p class="consent">{{consent}}</p>
+</form>
+<div class="sent" id="sent" role="status" tabindex="-1">
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" aria-hidden="true"><circle class="draw" cx="36" cy="36" r="34" stroke="#C9CCD1" stroke-width="1"></circle><path class="draw draw2" d="M23 37 L32 46 L50 27" stroke="#F2F3F5" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+<h3>{{ok_h}}</h3>
+<p>{{ok_p}}</p>
+<button class="btn btn-ghost" type="button" id="again">{{ok_again}}</button>
+</div>
+</div>
+</div>
+</section>
+
+<section class="services wrap" id="services">
+<div class="streaks" aria-hidden="true" style="left:50%;right:auto;width:100vw;transform:translateX(-50%)">
+<div class="streak" style="top:14%;animation-duration:9s;animation-delay:-3s;opacity:.6"></div>
+<div class="streak" style="top:33%;animation-duration:12s;animation-delay:-8s;opacity:.45"></div>
+<div class="streak" style="top:52%;animation-duration:8s;animation-delay:-1s;opacity:.7"></div>
+<div class="streak" style="top:74%;animation-duration:14s;animation-delay:-6s;opacity:.4"></div>
+<div class="streak" style="top:91%;animation-duration:10s;animation-delay:-4s;opacity:.55"></div>
+</div>
+<div class="sec-head reveal">
+<div><div class="label">{{sv_label}}</div><h2 class="h2">{{sv_h}}</h2></div>
+<p class="lead">{{sv_p}}</p>
+</div>
+<div class="cards">
+<article class="card reveal"><svg class="ic ic-plane" viewBox="0 0 24 24" fill="none" stroke="#C9CCD1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 16l20-6-2-3-7 2-5-6H6l3 7-5 1.5L2 10H1l1 6z"></path><path d="M3 21h18"></path></svg><h3>{{sv1_h}}</h3><p>{{sv1_p}}</p></article>
+<article class="card reveal"><svg class="ic ic-shake" viewBox="0 0 24 24" fill="none" stroke="#C9CCD1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="1"></rect><path d="M8 7V4h8v3"></path><path d="M3 13h18"></path></svg><h3>{{sv2_h}}</h3><p>{{sv2_p}}</p></article>
+<article class="card reveal"><svg class="ic ic-spin" viewBox="0 0 24 24" fill="none" stroke="#C9CCD1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.4 6.8 19.1l1-5.8L3.5 9.2l5.9-.9z"></path></svg><h3>{{sv3_h}}</h3><p>{{sv3_p}}</p></article>
+<article class="card reveal"><svg class="ic ic-route" viewBox="0 0 24 24" fill="none" stroke="#C9CCD1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="18" r="2"></circle><circle cx="19" cy="6" r="2"></circle><path d="M7 18h8a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h8"></path></svg><h3>{{sv4_h}}</h3><p>{{sv4_p}}</p></article>
+</div>
+</section>
+
+<section class="fleet" id="fleet">
+<div class="wrap">
+<div class="reveal"><div class="label">{{fl_label}}</div><h2 class="h2">{{fl_h}}</h2></div>
+<div class="fleet-grid">
+<article class="car-card reveal">
+<div class="carwrap">{{>car_v}}</div>
+<div class="car-head"><h3>V-Class</h3><span>{{v_note}}</span></div>
+<p>{{v_p}}</p>
+</article>
+<article class="car-card reveal">
+<div class="carwrap">{{>car_b}}</div>
+<div class="car-head"><h3>BMW 7</h3><span>{{b_note}}</span></div>
+<p>{{b_p}}</p>
+</article>
+<article class="car-card reveal">
+<div class="carwrap">{{>car_s}}</div>
+<div class="car-head"><h3>S-Class</h3><span>{{s_note}}</span></div>
+<p>{{s_p}}</p>
+</article>
+</div>
+</div>
+</section>
+
+<section class="how" id="how">
+<div class="streaks" aria-hidden="true">
+<div class="streak" style="top:18%;animation-duration:10s;animation-delay:-2s;opacity:.55"></div>
+<div class="streak" style="top:41%;animation-duration:7s;animation-delay:-5s;opacity:.7"></div>
+<div class="streak" style="top:63%;animation-duration:12s;animation-delay:-1s;opacity:.45"></div>
+<div class="streak" style="top:84%;animation-duration:9s;animation-delay:-6s;opacity:.6"></div>
+</div>
+<div class="wrap">
+<div class="reveal"><div class="label">{{hw_label}}</div><h2 class="h2">{{hw_h}}</h2></div>
+<ol class="steps" id="steps" role="list" style="list-style:none;padding-left:0">
+<li class="track" aria-hidden="true" role="presentation"><i></i><b></b></li>
+<li class="step s1"><span class="node" aria-hidden="true">01</span><h3>{{st1_h}}</h3><p>{{st1_p}}</p></li>
+<li class="step s2"><span class="node" aria-hidden="true">02</span><h3>{{st2_h}}</h3><p>{{st2_p}}</p></li>
+<li class="step s3"><span class="node" aria-hidden="true">03</span><h3>{{st3_h}}</h3><p>{{st3_p}}</p></li>
+</ol>
+<div class="how-cta reveal">
+<a class="btn btn-primary" href="#booking">{{hero_btn1}}</a>
+<p>{{hw_or}} <a href="tel:{{phone_tel}}">{{phone_display}}</a></p>
+</div>
+</div>
+</section>
+</main>
+
+<footer class="site-footer">
+<div class="streaks" aria-hidden="true"><div class="streak" style="top:50%;animation-duration:11s;animation-delay:-3s;opacity:.4"></div></div>
+<div class="wrap footer-row">
+<span class="brand-word"><b style="font-size:15px">MERCURY</b><small>GROUP</small></span>
+<div class="footer-contacts"><a href="tel:{{phone_tel}}">{{phone_display}}</a><a href="mailto:{{email}}">{{email}}</a></div>
+<span>© <span id="year">2026</span> Mercury Group. {{ft_rights}}</span>
+</div>
+</footer>
+
+<script>window.MG={api:'/api/booking'};</script>
+<script src="{{base}}assets/js/main.js" defer></script>
+</body>
+</html>
